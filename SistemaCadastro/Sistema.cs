@@ -189,6 +189,8 @@ namespace SistemaCadastro
             bool retorno = con.insereMusica(novaMusica);
             if (retorno == false)
                 MessageBox.Show(con.mensagem);
+            else
+                MessageBox.Show("Inserido com sucesso!");
 
             limpaCampos();
             listaMusicas();
