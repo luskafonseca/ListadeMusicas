@@ -32,7 +32,7 @@ namespace SistemaCadastro
             if (retorno == false)
                 MessageBox.Show(con.mensagem);
             else
-                MessageBox.Show("Genero adicionado com sucesso");
+                MessageBox.Show("Album adicionado com sucesso");
             txtaddAlbum.Clear();
             txtaddAlbum.Focus();
             listaAlbum();
