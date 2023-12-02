@@ -339,5 +339,10 @@ namespace SistemaCadastro
         {
 
         }
+
+        private void marcador_Paint(object sender, PaintEventArgs e)
+        {
+                
+        }
     }
 }
